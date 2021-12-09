@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int fibonachy(int x){
+	if (x <= 1){
+		return x;
+	}
+		return fibonachy(x - 1) + fibonachy(x - 2);
+	
+
+
+}
+int main(){
+	int x;
+	cout << "this app fibonachy"<<endl;
+	cout << "enter number sentens fibonachy";
+
+	cin >> x;
+	cout << fibonachy(x);
+
+
+
+	system("pause");
+	return 0;
+}
